@@ -1,0 +1,24 @@
+{
+    "name": "jasonyh/swoole-queue",
+    "description": "基于swoole的任务队列，可做延时任务--Based Swoole task queue enables delayed tasks.",
+    "type": "library",
+    "require": {
+        "php": ">7.1"
+    },
+    "require-dev": {
+        "swoole/ide-helper": "dev-master"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "JasonYHZ",
+            "email": "robotme@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "JasonYH\\SwooleQueue\\": "src/"
+        }
+    }
+}
